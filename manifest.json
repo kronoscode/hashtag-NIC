@@ -2,11 +2,19 @@
   "manifest_version": 2,
   "name": "#NIC",
   "author": "kronoscode",
+  "description": "Extensión para mostrar la banderita de Nicaragua en Twitter aunque no estemos en el mundial",
   "version": "1",
 
   "permissions": [
     "tabs", "https://twitter.com/"
   ],
+
+  "icons": {
+    "19": "icons/icon32.png",
+    "38": "icons/icon48.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
 
   "content_scripts": [ {
     "matches": ["https://twitter.com/*"],
